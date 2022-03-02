@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 3</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Akun</h1>
+    <!-- Buat file untuk action -->
+    <form method="" action="/1-3_act.php" method="get"> 
+        <label for="nama">Nama : </label>
+        <input id="nama" value="Ali" type="text"><br>
+
+        <label for="email">Email : </label>
+        <input id="email" type="email" value="al1@mail.co"><br>
+
+        <label for="password">Password : </label>
+        <input id="password" type="password" value="********"><br>
+
+        <label for="tanggalLahir">Tanggal Lahir : </label>
+        <input id="tanggalLahir" type="date" value="2000-04-27"><br>
+
+        <label>Jenis Kelamin : </label>
+        <input  id="lk" name="jenisKelamin" value="Laki-Laki" type="radio" checked>
+        <label for="">Laki-Laki</label>
+        <input id="pr" name="jenisKelamin" value="Perempuan" type="radio">
+        <label for="">Perempuan</label><br>
+
+        <label for="pekerjaan">Pekerjaan</label>
+            <select name="works" id="works">
+                <option value="Pelajar">Pelajar</option>
+                <option value="Wiraswasta">Wirausaha</option>
+                <option value="Lainnya">Lainnya</option>
+            </select>
+            <br>
+        <label>Alamat : </label>
+        <textarea rows="2" cols="20">Bandung</textarea><br>
+        <button type="submit" onclick="alert('Hello World!')">Kirim</button>
+        <button type="reset">Hapus</button>
+    </form>
+</body>
+</html>
